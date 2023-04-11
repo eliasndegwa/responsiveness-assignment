@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;
+}
