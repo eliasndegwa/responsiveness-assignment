@@ -2,19 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+    font-family: 'Montserrat', sans-serif;
 }
-.navbar{
+.header{
     display: flex;
+    align-items: center;
     justify-content: space-around;
+    padding: 15px;
+    border-bottom: 1px solid #000;
+    background-color: blue;
 }
-ul{
+.logo{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+}
+.nav-container{
     display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 li{
     list-style-type: none;
+    display: inline-block;
     margin: 0 20px;
 }
 a{
     text-decoration: none;
+    color: #fff;
+}
+.login-area{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.register{
+    background-color: rgb(90, 199, 235);
+    border-radius: 5px;
+    padding: 10px;
 }
