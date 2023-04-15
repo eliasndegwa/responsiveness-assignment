@@ -97,3 +97,40 @@ a{
     background-color: rgb(90, 199, 235);
     border: none;
 }
+.goals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12vh;
+    position: relative;
+}
+.goals2{
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    gap: 1rem;
+}
+.card{
+    border: none;
+    flex: 1;
+    height: 25vh;
+    background-color: white;
+}
+.card i,.card h2,.card p{
+    margin: 3%;
+}
+.card i{
+    width: 1rem;
+    height: 1rem;
+    color: aqua;
+}
+.card h2{
+    text-transform: capitalize;
+}
+#blue{
+    color: white;
+    background-color: aqua;
+}
+#blue i{
+    color: #fff;
+}
