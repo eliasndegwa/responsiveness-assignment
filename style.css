@@ -366,3 +366,22 @@ footer{
     justify-content: center;
     gap: 1px;
 }
+@media (max-width:850px) {
+    .landing-page{
+        background: linear-gradient(to bottom,aqua,aquamarine);
+    }
+    .navbar{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+}
+@media(max-width:650px){
+    .goals2,.vision2,.test-list,.price-card,.contact2,.appointment2{
+        flex-direction: column;
+    }
+    .fam{
+        display: none;
+    }
+}
