@@ -55,6 +55,9 @@ a{
     z-index: 1;
 
 }
+.login-area i{
+    color: #fff;
+}
 .register{
     background-color: rgb(90, 199, 235);
     border-radius: 5px;
@@ -354,17 +357,10 @@ footer{
 .card5 h3,.card5 ul,.card5 li{
     margin-top: 10%;
 }
-.copyright{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1%;
-}
-.social{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1px;
+@media (min-width:850px){
+    .login-area i{
+        display: none;
+    }
 }
 @media (max-width:850px) {
     .landing-page{
@@ -378,10 +374,22 @@ footer{
     }
 }
 @media(max-width:650px){
-    .goals2,.vision2,.test-list,.price-card,.contact2,.appointment2{
+    .goals2,.vision2,.test-list,.price-card,.contact2,.appointment2,.newsletter2{
         flex-direction: column;
     }
+    .appointment{
+        margin-top: 0;
+    }
     .fam{
+        display: none;
+    }
+    .foot{
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 500px){
+    .login,.register{
         display: none;
     }
 }
